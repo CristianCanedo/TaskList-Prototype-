@@ -38,11 +38,9 @@ namespace TaskList
         public string Title { get; set; }
         public string Description { get; set; }
         public bool IsCompleted { get; set; }
-        // TODO: Add date property and reconfigure DisplayList()
         
         public Task() {}
-        
-        // TODO: Decide if constructor chaining will work here
+    
         public Task(string title, string desc)
         {
             Title = title;
@@ -148,7 +146,7 @@ namespace TaskList
         
         public void MarkTaskComplete(params int[] index)
         {
-            // TODO: Implement
+            throw new NotImplementedException();
         }
     }
 }
